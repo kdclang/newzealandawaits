@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width" />
+      <meta name="Description" content="Great food, wine, and beer in all regions of New Zealand">
+      <meta name="author" content="New Zealand Awaits">
+      <meta name="Copyright" content="Copyright (c) 2015 New Zealand Awaits, all rights reserved.">
+      <title>New Zealand Awaits - Food, Wine, and Beer</title>
+      <!--[if IE]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+        <link rel="stylesheet" href="stylesheets/normalize.css" />
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="stylesheets/default_0.css" />
+		 <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    </head>
+    
+    <body>
+
+        <script>
+            (function($){
+            			$(document).ready(function(){
+            				$('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+            					event.preventDefault(); 
+            					event.stopPropagation(); 
+            					$(this).parent().siblings().removeClass('open');
+            					$(this).parent().toggleClass('open');
+            				});
+							
+            			});
+            		})(jQuery);
+					
+
+        </script>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+			
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div  >
+           
+		   <div class="navbar-collapse collapse">
+                <!-- Left nav -->
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown active">
+                        <a href="whynz.html">Why NZ?<b class="caret hidden-xs"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown dropdown-submenu">
+                                <a href="thingstodo.html">Things To Do</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="hiking.html">Walking/Hiking</a></li>
+                                    <li><a href="biking.html">Biking</a></li>
+                                    <li><a href="water.html">Water Activities</a></li>
+                                    <li><a href="adventure.html">Adventure Activities</a></li>
+                                    <li><a href="golf.html">Golf</a></li>
+                                    <li><a href="fish.html">Fishing</a></li>										
+                                    <li><a href="wildlife.html">Wildlife</a></li>
+                                    <li><a href="maori.html">Maori Culture</a> </li>
+                                    <li><a href="middleearth.html">Middle Earth</a></li>
+                                    <li><a href="arts.html">Arts &amp; Culture</a></li>
+                                    <li><a href="relaxation.html">Relaxation &amp; Pampering</a></li>
+                                    <li><a href="farms.html">Farms &amp; Gardens</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown dropdown-submenu active">
+                                <a href="fwb.html">Food, Wine, Beer&nbsp&nbsp</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="food.html">Food</a></li>
+                                    <li><a href="wine.html">Wine</a></li>
+                                    <li><a href="beer.html">Beer</a></li>
+                                </ul>
+                            </li>
+                            <li> <a href="accommodation.html">Accommodation</a></li>
+                            <li><a href="people.html">People</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="lgbt.html">LGBT</a></li>
+                    <li><a href="private.html">Privately Guided Travel</a></li>
+                    <li class="dropdown">
+                        <a href="selfdrive.html" class="dropdown">Self-Drive Travel<b class="caret  hidden-xs"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="selfdrivehow.html">How It Works</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="tours.html">Tours</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                </ul>
+				</div>
+
+			</div>
+            <!--/.nav-collapse -->
+
+		
+			<div class="row tophead">
+			<div class="col-md-12">
+		           <img src="images/logos/nza_logo.svg" alt="New Zealand Awaits logo" class="nzlogo"></img>
+
+			</div>
+			</div>
+		
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			  </ol>
+			
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+				<div class="item active">
+				  <img src="./images/winetour.jpg" alt="Wine Tour in Marlborough">
+				</div>
+			
+				<div class="item">
+				  <img src="./images/mountainsidedinner.jpg" alt="Mountainside diniing">
+				</div>
+			
+				<div class="item">
+				  <img src="./images/cafe.jpg" alt="Hokatika Cafe">
+				</div>
+			
+			
+			  </div>
+			
+			  <!-- Left and right controls -->
+			  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			  </a>
+			</div>
+	  
+        <div class="container-fluid">
+		 <div class="row">
+			<div class="col-md-12">
+				<ol class="breadcrumb">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html">Why NZ?</a></li>					
+					<li class="active">Food, Wine, Beer</li>
+				</ol>
+			</div>
+		 </div>
+		 
+        <div class="row">
+            <div class="col-md-12">
+				<h1>Food, Wine, Beer</h1>
+				<p>New Zealand has it all.
+				</p>
+			</div>
+		</div>
+		<div class="row">
+            <a href="food.html"><div class="col-sm-4 col-xs-12 food" id="readmore">
+				<h4>food</h4>
+            </div></a>
+			
+            <a href="wine.html"><div class="col-sm-4 col-xs-12 wine" id="readmore">
+			<h4>wine</h4>
+            </div></a>
+			
+            <a href="beer.html"><div class="col-sm-4 col-xs-12 beer" id="readmore">
+			<h4>beer</h4>
+            </div></a>
+	
+		</div> <!-- end row -->				
+	
+
+	
+        </div> <!-- end container-fluid -->	  
+	  <!--
+      <a name="walking"></a>
+      <section class="columns clear">
+         <h2>Walking/Hiking (called ‘Tramping’ in NZ):</h2>
+         <section class="colLeft">
+            <p>From day walks to multi-day hikes, there are options to suit all fitness levels. Walking and hiking is one of the best ways for you to enjoy New Zealand’s pristine wilderness and nature, giving you access to native forests, volcanic plateaus, alpine meadows and peaks, glaciers, and coastal seal and bird colonies. Our nine ‘<a href="http://www.greatwalks.co.nz/" target="_blank">Great Walks</a>’ encompass the best of our diversity and scenery.</p>
+         </section>
+         <section class="colRight"><img src="images/nzwalk2.jpg" class="lright" alt="A walk through the New Zealand bush"></section>
+      </section>
+      <a name="biking"></a>
+      <section class="columns clear">
+         <h2>Biking:</h2>
+         <section class="colLeft">
+            <p>An equally awesome way to ‘get out there’ in New Zealand is by bike. With the development of ‘<a href="http://www.nzcycletrail.com/big-idea" target="_blank"></a>Nga Haerenga</a  >’, a network of more than 1000kms of cycle trails including 23 Great Rides, New Zealanders and travelers are enjoying more of our country by bike than ever before. Offering easy day rides and multi-day options, on predominantly off-road trails, you can experience peaceful native bush, mountain and lake vistas, or meandering jaunts through vineyards. Utilizing purpose built tracks and old rail trails, the range and variety of rides available provides for both family and leisure riders as well as experienced cyclists and mountain bikers. Don’t think you have to ‘rough it’ on these rides either! If sleeping in luxury accommodations and eating at high-class restaurants is your preference, we can ensure you get the best of both worlds.</p>
+         </section>
+         <section class="colRight"><img class="lright" src="images/biking.jpg" alt="Biking at Te Miro"></img></section>
+      </section>
+      <a name="water"></a>
+      <section class="columns clear">
+         <h2>Water Activities:</h2>
+         <section class="colLeft">
+            <p>If cruising in a kayak alongside dolphins or exploring a remote, secluded beach is more your style, we have that too! We have thousands of kilometers of coastline, lakes, and rivers affording a huge array of water activities: kayaking, paddleboarding, sailing, surfing, boat cruising, diving, windsurfing, kitesurfing, and fishing.</p>
+         </section>
+         <section class="colRight">
+            <img class="lright" src="images/MilfordSoundKayaking.jpg" alt="Kayaking in Milford Sound"></img>
+         </section>
+      </section>
+	  
+	   <a name="adventure"></a>
+      <section class="columns clear">
+         <h2>Adventure Activities:</h2>
+         <section class="colLeft">
+            <p>New Zealand is an adrenaline junkie’s dream. If you want to get your heart racing, try bungy-jumping, caving, sky-diving, rafting, jet-boating, or zip-lining, to name just a few of the awesome activities on offer! Any of these activities are incredibly fun, but imagine experiencing them against the phenomenal backdrop of New Zealand scenery. Magic!</p>
+         </section>
+         <section class="colRight">
+            <img class="lright" src="images/tessacanopy.jpg" alt="Zip Lining"></img>
+         </section>
+      </section>
+	  
+      <a name="wildlife"></a>
+      <section class="columns clear">
+         <h2>Unique wildlife:</h2>
+         <section class="colLeft">
+            <p>Whale watching and swimming in the wild with dolphins, including our rare hector dolphin, are experiences treasured by many travelers. We use companies that are diligent about protecting these species and give portions of their proceeds to marine conservation. New Zealand is also a bird-watchers paradise: native birds such as the kiwi, tui, piwakawaka (fantail), and kereru (native wood pigeon), can all be spotted in the wild. We also have more than 80 different types of seabirds that breed along our coastlines, including our three penguin species. Bring your binoculars and cameras! </p>
+         </section>
+         <section class="colRight">
+            <img src="images/Tui2.jpg" class="lright" alt="New Zealand Tui"></img>
+         </section>
+      </section>
+      <a name="relax"></a>
+      <section class="columns clear">
+         <h2>Relaxation and Pampering:</h2>
+         <section class="colLeft">
+            <p>If the above activities have worn you out, or you prefer a more indulging vacation, try one of our many thermal hot springs or spas. With New Zealand sitting where two tectonic plates converge, the earth’s crust is thin here, bestowing much geothermal activity and a multitude of natural hot springs. For centuries these mineral filled springs have nurtured and healed aching bodies. Nothing better after a good day’s bike riding than sliding into a natural hot spring, either on beach or in the bush (yes, they are natural!), or in a modern luxury spa. Ahhhhh.</p>
+         </section>
+         <section class="colRight">
+            <img src="images/hottub.jpg" class="lright" alt="New Zealand Tui"></img>
+         </section >
+      </section>
+      <a name="food"></a>
+      <section class="columns clear">
+         <h2>Food, Wine and Beer:</h2>
+         <section class="colLeft">
+            <p>
+               With world class chefs making use of local fresh ingredients, abundant seafood and pacific cuisines, New Zealand is a foodie’s dream destination. Pair sumptuous food with excellent cool-climate wines and a growing craft brew culture, and you have something for every appetite. The well-established coffee culture provides your morning or afternoon hit as well.  And don’t forget to spend time meandering through a farmer’s market or two on your travels. Mix with the locals and sample fresh and handmade goodies at these true Kiwi community gatherings.
+            </p>
+         </section>
+         <section class="colRight">
+		   <figure>
+            <img src="images/dining.jpg" class="lright" alt="Scenic Dining, Aoraki/Mount Cook"></img>
+            <figcaption>Photo courtesy Miles Holden (www.milesholden.com)</figcaption>
+		   </figure>
+         </section>
+      </section>
+      <a name="middleearth"></a>
+      <section class="columns clear">
+         <h2>Middle Earth: </h2>
+         <section class="colLeft">
+            <p>Lord of the Rings and The Hobbit Trilogy: It’s not surprising that New Zealand is becoming known as ‘Middle Earth’. It’s as if J.R.R. Tolkien was describing New Zealand when he created Middle Earth in his books, The Hobbit and The Lord of the Rings. Our Oscar-winning filmmaker and director, Sir Peter Jackson, brought real life middle earth to the world when the first Lord of the Rings movie was released in 2001. Jackson used over 150 locations in New Zealand for the filming of these movies and many of those locations can be visited on your own middle earth journey. The most iconic of these is Hobbiton, where The Shire is still alive and well: you can enjoy a beer at the Green Dragon Inn; look for a Hobbit in their garden; or dance under the party tree!</p>
+         </section>
+         <section class="colRight">
+            <img src="images/bagsend.jpg" class="lright" alt="Bag's End in Hobbiton"></img>
+         </section>
+      </section>
+      <a name="maori"></a>
+      <section class="columns clear">
+         <h2>Maori Culture:</h2>
+         <section class="colLeft">
+            <p>You won’t be in New Zealand long before experiencing Maori culture. Maori, Tangata Whenua, are the indigenous people of New Zealand. Arriving more than 1000 years ago from Polynesia, Maori make up 14% of our population. Your New Zealand experience is not complete without taking in some Maori culture, traditions, performing arts, crafts, art, and of course, Maori food. Unique and vibrant, Maori cultural experiences are rich in legends and story-telling.</p>
+         </section>
+         <section class="colRight">
+			<figure>
+            <img src="images/maori.jpg" class="lright" alt="Maori Kapa Haka"></img>
+            <figcaption>Photo courtesy Nick Servian (www.nickservian.com)</figcaption>
+			</figure>
+         </section>
+      </section>
+      <a name="arts"></a>
+      <section class="columns clear">
+         <h2>Arts and Culture:</h2>
+         <section class="colLeft">
+            <p>Major public galleries, local artists’ studios, cultural, historic, and contemporary museums, heritage attractions, theatre and performing arts… all these await the more artistically or culturally inclined. New Zealand has many thriving artist communities as well. Many have options of creating your own craft, perhaps a Maori bone carving.</p>
+         </section>
+         <section class="colRight">
+            <figure>
+              <img src="images/nelson.jpg" class="lright" alt="Nelson Arts Festival"></img>
+               <figcaption>Photo courtesy Scott Venning (www.scottvenning.co.nz)</figcaption>
+            </figure>
+         </section>
+      </section>
+
+      <a name="farms"></a>
+      <section class="columns clear">
+         <h2>Farms and Gardens: </h2>
+         <section class="colLeft">
+            <p>New Zealand is an agricultural nation and a visit to a New Zealand farm enhances any trip down under. You can choose from cattle farms, high country sheep farms, herb farms, the list is endless. Many farms offer luxury accommodation with exquisite meals.  New Zealanders also love to garden, so garden lovers will find many world-class public and private gardens to stroll through and enjoy. Our long, skinny geographic shape allows both sub-tropical and alpine species to thrive here.</p>
+         </section>
+         <section class="colRight">
+            <img src="images/sheep.jpg" class="lright" alt="Sheep resting under tree"></img>
+         </section>
+      </section>
+      <section class="columns clear">
+         <p>And we haven’t even mentioned horse-riding/trekking, golf, air activities, star gazing, and the numerous other experiences awaiting you in New Zealand!
+            Whatever your dream vacation includes, whether predominantly hiking, or biking, or a taste of all of the above, we can create the perfect journey for you. <a href="contact.php">Contact us now</a>.
+         </p>
+-->
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>email:
+                            <a href="mailto:debbie@newzealandawaits.com">debbie@newzealandawaits.com</a>
+                        </p>
+                        <p>US phone:
+                            <a href="tel:15088733164">1-508-873-3164</a>
+                        </p>
+                        <p>NZ phone:
+                            <a href="tel:0273977796">+64-027-397-7796</a></p>
+						</div>
+						<div class="col-sm-6">
+
+							<p class="right">&copy; 2015 New Zealand Awaits. All rights reserved.</p>
+						
+						</div>
+				</div>
+			</div>
+		</footer>
+   </body>
+</html>
+
+
